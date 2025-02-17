@@ -27,7 +27,7 @@ namespace AspNetCoreSecurityApp.Areas.Identity.Pages.Account
         private readonly UserManager<IdentityUser> _userManager;
         private readonly IUserStore<IdentityUser> _userStore;
         private readonly IUserEmailStore<IdentityUser> _emailStore;
-        //private readonly IEmailSender _emailSender;
+        // private readonly IEmailSender _emailSender;
         private readonly ILogger<ExternalLoginModel> _logger;
 
         public ExternalLoginModel(
@@ -41,7 +41,7 @@ namespace AspNetCoreSecurityApp.Areas.Identity.Pages.Account
             _userStore = userStore;
             _emailStore = GetEmailStore();
             _logger = logger;
-            //_emailSender = emailSender;
+            // _emailSender = emailSender;
         }
 
         /// <summary>

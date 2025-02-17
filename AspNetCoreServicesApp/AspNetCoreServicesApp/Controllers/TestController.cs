@@ -7,7 +7,6 @@ namespace AspNetCoreServicesApp.Controllers
         //[Route("")]
         //[Route("Test")]
         //[Route("Test/Home")]
-        //[AcceptVerbs("GET")]
         public IActionResult Home()
         {
             return View();
